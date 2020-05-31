@@ -8,7 +8,7 @@ class CounterComponent extends Component {
         const { counter, dispatch } = this.props;
         return (
             <div class="text-center mt-5">
-                <h2>Redux Counter</h2>
+                <h1>Redux Counter</h1>
                 <p>{counter}</p>
                 <Button variant="success" onClick={() => dispatch({ type: 'ADD_ONE' })}>+1</Button>
                 <Button variant="success" onClick={() => dispatch({ type: 'ADD_TEN' })}>+10</Button>
